@@ -1,0 +1,323 @@
+:root {
+  --hell: rgb(213, 228, 235);
+  --dunkel: rgb(21, 24, 65);
+  --rot: rgb(183, 70, 83); 
+}
+
+
+	/* From https://css.glass */
+	/*
+	--background: rgba(12, 67, 236, 0.16);
+	--border-radius: 16px;
+	--box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	--backdrop-filter: blur(3.8px);
+	---webkit-backdrop-filter: blur(3.8px);
+	*/
+	
+/* general website style rules */
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("pics/bg_music_concert.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;	
+}
+
+header {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.teaser {
+	width: 100%;
+	height: 300px;
+}
+
+@media screen and (min-width: 800px) {
+	.teaser {
+		height: 600px;
+	}
+}
+
+.teaser img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h2 {
+	color: white;
+	background-color: blue;
+	display: inline;
+	padding: 8px;
+	margin: 3px;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+	font-weight: 500;
+
+	/* Das ist dafür, dass die Navigation jederzeit anklickbar ist */
+	z-index: 99;
+}
+
+footer,
+nav {
+	backdrop-filter: blur(8px);
+}
+
+footer ul,
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+footer ul li,
+nav ul li {
+	padding: 16px;
+}
+
+.mitte {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 24px;
+	box-sizing: border-box;
+
+	/* Das ist dafür, dass die Überschrift nicht hinter dem verschwommenen Bereich ist */
+	padding-top: 0px;
+	transform: translateY(48);
+}
+
+	/********************/
+	/*  ULTIMATE TABLE  ***********************************************************************/
+	/********************/
+
+	
+/** my addons for table design **/
+
+	/* Fester Tabellenkopf mit position:sticky */
+	thead {
+		position: sticky;
+		top: 5px; 
+		color: black;
+		background: white;
+		padding-top: 0px;
+		transform: translateY(48);
+	}
+	
+	tbody {
+		top: 0px;
+		color: black;
+		/* background: red; */
+		z-index: 2;
+	}
+	
+	table, th, td, caption {
+		border: thin solid #a0a0a0;
+	}
+
+	table {
+		width: 100%;
+		
+		border-collapse: collapse;
+		border-spacing: 0;
+		border-width: thin 0 0 thin;
+		margin: 0 0 1em;
+		table-layout: auto;
+		max-width: 100%;	
+		/*margin-left: 2em; mLm: es entsteht eine Lücke zw. linker Sidebar und Zeile*/
+		box-shadow: 0 0 .1em #666;
+		position: relative;
+		z-index: 1;
+	}
+
+	th, td {
+		padding: 8px;
+		font-weight: normal;
+		text-align: left;
+	}
+
+	/* mLm: Tabellenüberschrift*/
+	caption {
+	  color: white;
+	  background: blue;/*hsl(13 96% 39%);*/
+	  font-size: 1.5em;
+	  box-shadow: .1em .1em .1em 0 hsl(0 0 50%);
+	  padding: .2em .2em .2em 2em;
+	  width: 10em;
+	  margin-left: -.6em;
+	  position: relative;
+	}
+
+		
+	caption::before {
+	  content: "";
+	  position: absolute;
+	  display: block;
+	  height: 0;
+	  width: 0;
+	  top: 1.3em;
+	  left: -.6em;
+	  border-style: solid;
+	  border-width: .6em;
+	  border-color: transparent gray transparent transparent;
+	  z-index: -1;
+	}
+
+	/* mLm: Spaltenüberschriften*/
+	th {
+		background: green;
+		font-weight: 700;
+		position: relative;
+	}
+
+	/* ROWS -------------------------*/
+	tr:nth-child(-n+3) {
+	  border: 2px solid orange;
+	  margin-bottom: 1px;
+	}
+
+	/* ungerade Spalten einer Reihe */
+	tr :nth-child(odd) {
+		text-align: left;
+		vertical-align: center;
+		--background-color: red;
+	}
+
+	/* gerade Spalten einer Reihe */
+	tr :nth-child(even) {
+		text-align: left;
+		vertical-align: center;
+		--background-color: lightgray;	
+	}
+	
+	/* explizite Spalte einer Reihe */
+	tr :nth-child(1) {
+		text-align: left;
+		vertical-align: bottom;
+		--background-color: green;
+	}
+	
+	/* ungerade Felder einer Reihe */
+	tr:nth-child(odd) td {
+		background-color: lightgray;
+		color: #000; 
+	}
+	/* gerade Felder einer Reihe */
+	tr:nth-child(even) td {
+		background-color: #f2f2f2;
+		color: #000;
+	}
+
+	/* oberste Reihe und linke Spalte */
+	
+	th[scope=row] {
+		color: #000;
+		text-align: left;
+		background-color: yellow;
+	}
+
+	td {
+		border-bottom: 1px solid #ddd;
+		text-align: right;
+		box-shadow: inset 1px 3px 5px -3px rgb(0 0 0 / .5);
+	}
+	
+	td:empty {
+		box-shadow: none;
+	}
+
+	th:nth-child(odd) td {
+		background-color: lightgray;
+		color: #000;
+	}
+
+
+
+/** FINALLY ** TABLE works ** via Javascript ** and following parameters **************************/
+.fixedTable .table {
+    background-color: white;
+    width: auto;
+	/*border-radius: 16px;*/
+}
+
+/*定义表格中单元格属性*/
+.fixedTable .table tr td,
+.fixedTable .table tr th {
+    min-width: 60px;
+    width: 100px;
+    min-height: 20px;
+    height: 20px;
+    padding: 5px;
+    /*word-break: break-all;*/
+    /*为了使表格的头、侧边、表体的行列对齐，不能使用换行参数，否则三部分无法对齐*/
+--	table-layout:auto;
+	white-space:nowrap;
+}
+
+.fixedTable-header {
+    width: 50%; /* mLm: Breite */
+    height: 95px;	/* mLm: Darstellung von Zeilenumbrüchen */
+    margin-left: 130px;
+    overflow: hidden;
+    border-bottom: 1px solid #CCC;
+	
+	/* mLm: Folgendes zur Fixierung des Headers vor der Nav-Leiste*/
+	position: sticky;
+	z-index: 99; /* immer im Vordergrund */
+	top: 50px; 
+	--color: black;
+	--background: white;
+	padding-top: 0px;
+	transform: translateY(50);
+}
+
+.fixedTable-footer {
+    width: 50%;
+    height: 30px;
+    margin-left: 110px;
+    overflow: hidden;
+    border-bottom: 1px solid #CCC;
+	/*border-radius: 16px;*/
+}
+
+.fixedTable-sidebar {
+    width: 130px;
+    /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    /*border-right: 1px solid #CCC;*/
+	/*border-radius: 16px;*/
+}
+
+.fixedTable-sidebar-right {
+    width: 130px;
+    /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
+    height: 600px;
+    float: left;
+    overflow: hidden;
+    /*border-right: 1px solid #CCC;*/
+	/*border-radius: 16px;*/
+}
+
+.fixedTable-body {
+    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 50%;
+    /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
+    height: 600px;
+    float: left;
+	/*border-radius: 16px;*/
+}
+
+/** FINALLY ** TABLE works ** via Javascript ** above parameters **************************/
