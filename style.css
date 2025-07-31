@@ -53,6 +53,18 @@ h2 {
 	margin: 3px;
 }
 
+/* Hyperlinks */
+a {
+	 color: white;
+	 font-size: 2.0rem;
+	 text-decoration: underline;
+}
+
+.ButtonClass {
+	border-radius:15%; /* runde Ecken */
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
 nav {
 	position: sticky;
 	top: 0;
@@ -97,6 +109,52 @@ section {
 	transform: translateY(48);
 }
 
+/* DROPDOWN-Button */
+.dropbtn {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 12px;
+  border: none;
+  border-radius:5%; /* runde Ecken */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 103px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+}
+
+.dropdown-content a {
+  color: black;
+  font-size: 10px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px; --row height
+  --transition: 1s; -- Verzögerung der Markierung
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	/* in den Vordergrund */
+	position: static;
+	z-index: 10;
+	
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+/**/
+
 	/********************/
 	/*  ULTIMATE TABLE  ***********************************************************************/
 	/********************/
@@ -127,7 +185,6 @@ section {
 
 	table {
 		width: 100%;
-		
 		border-collapse: collapse;
 		border-spacing: 0;
 		border-width: thin 0 0 thin;
@@ -267,14 +324,14 @@ section {
 .fixedTable-header {
     width: 50%; /* mLm: Breite */
     height: 95px;	/* mLm: Darstellung von Zeilenumbrüchen */
-    margin-left: 130px;
+    margin-left: 140px;
     overflow: hidden;
     border-bottom: 1px solid #CCC;
 	
 	/* mLm: Folgendes zur Fixierung des Headers vor der Nav-Leiste*/
 	position: sticky;
-	z-index: 99; /* immer im Vordergrund */
-	top: 50px; 
+	z-index: 10; /* immer im Vordergrund */
+	top: 83px; /* fixer Abstand von Oben */
 	--color: black;
 	--background: white;
 	padding-top: 0px;
@@ -291,7 +348,7 @@ section {
 }
 
 .fixedTable-sidebar {
-    width: 130px;
+    width: 140px;
     /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
     height: 600px;
     float: left;
@@ -313,7 +370,7 @@ section {
 .fixedTable-body {
     overflow-y: scroll;
     overflow-x: scroll;
-    width: 50%;
+    width: 51.4%;
     /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
     height: 600px;
     float: left;
