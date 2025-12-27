@@ -18,7 +18,7 @@
 body {
 	margin: 0;
 	font-family: Arial, Helvetica, sans-serif;
-	background-image: url("pics/bg_music_concert.jpg");
+	/* background-image: url("pics/bg_music_concert.jpg"); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;	
 }
@@ -258,7 +258,7 @@ section {
 
 	/* mLm: Spaltenüberschriften*/
 	th {
-		background: green;
+		background: rgb(80, 180, 80); /* some green*/
 		font-weight: 700;
 		position: relative;
 	}
@@ -267,6 +267,7 @@ section {
 	tr:nth-child(-n+3) {
 	  border: 2px solid orange;
 	  margin-bottom: 1px;
+	  width: 20;
 	}
 
 	/* ungerade Spalten einer Reihe */
@@ -280,7 +281,7 @@ section {
 	tr :nth-child(even) {
 		text-align: left;
 		vertical-align: center;
-		--background-color: lightgray;	
+		--background-color: lightgray;
 	}
 	
 	/* explizite Spalte einer Reihe */
@@ -293,7 +294,7 @@ section {
 	/* ungerade Felder einer Reihe */
 	tr:nth-child(odd) td {
 		background-color: lightgray;
-		color: #000; 
+		color: #000;
 	}
 	/* gerade Felder einer Reihe */
 	tr:nth-child(even) td {
@@ -336,8 +337,8 @@ section {
 /*定义表格中单元格属性*/
 .fixedTable .table tr td,
 .fixedTable .table tr th {
-    min-width: 60px;
-    width: 100px;
+    min-width: 71px;
+    width: 300px;
     min-height: 20px;
     height: 20px;
     padding: 5px;
@@ -348,7 +349,7 @@ section {
 }
 
 .fixedTable-header {
-    width: 50%; /* mLm: Breite */
+    width: 57.4%; /* mLm: Breite */
     height: 95px;	/* mLm: Darstellung von Zeilenumbrüchen */
     margin-left: 140px;
     overflow: hidden;
@@ -357,7 +358,7 @@ section {
 	/* mLm: Folgendes zur Fixierung des Headers vor der Nav-Leiste*/
 	position: sticky;
 	z-index: 10; /* immer im Vordergrund */
-	top: 83px; /* fixer Abstand von Oben */
+	top: 95px; /* fixer Abstand von Oben */
 	--color: black;
 	--background: white;
 	padding-top: 0px;
@@ -396,11 +397,11 @@ section {
 .fixedTable-body {
     overflow-y: scroll;
     overflow-x: scroll;
-    width: 51.4%;
+    width: 57.4%;
     /*height: 10%;!*原生CSS，高度为百分比时则根据数据行数进行扩充，没有滚动条，即使数据行数超出屏幕也没有，百分比数值可以为任意值*!*/
-    height: 600px;
+    height: 450px;
     float: left;
 	/*border-radius: 16px;*/
 }
 
-/** FINALLY ** TABLE works ** via Javascript ** above parameters **************************/
+**/** FINALLY ** TABLE works ** via Javascript ** above parameters **************************/
