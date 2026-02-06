@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<meta name="mobile-web-app-capable" content="yes" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>ULTIMATE-BL BETA</title>
+    <title>ULTIMATE-BL</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
           integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
@@ -14,6 +14,9 @@
 				background-repeat: no-repeat;
 				background-size: 100% 100%;	
 				}
+			caption::before {
+				top: 1.1em;
+			}
 		</style>	
 	<script>
 	document.addEventListener("DOMContentLoaded", function () {
@@ -32,21 +35,52 @@
 		
 		<nav>
 		  <ul class="mitte">
-			<!-- <li>
-			  <a href="#">Startseite</a>
-			</li> -->
 			<li>
-			  <!-- <a href="#services">Services</a> -->
-			  <!-- <a href="/st18">vor</a> -->
-			  <form><input class="ButtonClass" type="button" value="<< 19 <<" onclick="window.location.href='/st19';"></form>
+			   <a href="general.html"><font size=5 color=white><b>Home</b></font></a>
 			</li>
 			<li>
-			  <h2>Spieltag 20</h2>
+			  <!-- <a href="st18.html">Ultimate</a> -->
+			  <!-- <input class="ButtonClass" type="button" value=" &#11207; " onclick="window.location.href='st17.html';"> -->
+				<div class="NavButtonClassTOP">
+					<input class="NavButtonClass" type="image" src="pics/navarrow-darksilver-left.png" alt="Arrow direction left" value=" &#11207; " onclick="window.location.href='st19.html'">
+				</div>
+				<div class="dropdown">
+				  <button class="dropbtn"><b>Spieltag 20</b>
+					<img class="NavButtonClass" src="pics/navarrow-darksilver-down.png" alt="Arrow direction down" style="width: 20px; height: 20px;">
+				  </button>
+				  <div class="dropdown-content">
+					<a href="st18.html">Spieltag 18</a>
+					<a href="st19.html">Spieltag 19</a>
+					<a href="st20.html">Spieltag 20</a>
+					<a href="st21.html">Spieltag 21</a>
+					<a href="st22.html">Spieltag 22</a>
+					<a href="st23.html">Spieltag 23</a>
+					<a href="st24.html">Spieltag 24</a>
+					<a href="st25.html">Spieltag 25</a>
+					<a href="st26.html">Spieltag 26</a>
+					<a href="st27.html">Spieltag 27</a>
+					<a href="st28.html">Spieltag 28</a>
+					<a href="st29.html">Spieltag 29</a>
+					<a href="st30.html">Spieltag 30</a>
+					<a href="st31.html">Spieltag 31</a>
+					<a href="st32.html">Spieltag 32</a>
+					<a href="st33.html">Spieltag 33</a>
+					<a href="st34.html">Spieltag 34</a>
+				  </div>
+				</div>
+				
+			  <!-- <input class="ButtonClass" type="button" value=" &#11208; " onclick="window.location.href='st02.html';"> -->
+				<div class="NavButtonClassTOP">
+					<input class="NavButtonClass" type="image" src="pics/navarrow-darksilver-right.png" alt="Arrow direction right" value=" &#11208; " onclick="window.location.href='st21.html'">
+				</div>
+			  <!-- <form>
+				<input class="ButtonClass" type="button" value=" << " onclick="window.location.href='/st20';">
+				<input class="ButtonClass" type="button" value=" >> " onclick="window.location.href='/st19';">
+			  </form> -->
+			  
 			</li>
 			<li>
-			  <!-- <a href="#kontakt">Kontakt</a> -->
-			  <!-- <a href="/st19">zurück</a> -->
-			   <form><input class="ButtonClass" type="button" value=">> 18 >>" onclick="window.location.href='/st18';"></form>
+			  <a href="blulti.html"><font size=5 color=white><b>BL-Ultimate</b></font></a>
 			</li>
 		  </ul>
 		</nav>
@@ -56,15 +90,17 @@
 <div class="3dcaption" id="3dc" style="padding-left: 30px;">
     <header class="pseudo-header">
         <table class="table pseudo-table">
-			<caption style="text-indent: 20px;">BL 2024/25</caption>
+			<caption style="text-indent: 20px;">BL 2025/26</caption>
 			<thead>
 				<tr>
-					<th scope="row" height=28px colspan="30%"> <font size=5 color=red>ULTIMATE Beta</th>
+					<th scope="row" height=28px colspan="30%"> <font size=5 color=red>ULTIMATE</th>
 				</tr>
 			</thead>
 		</table>
 	</header>
 </div>
+
+
 <section> 
 <!-- Partial:Index.partial.html --> 
 <div Class="fixedTable" id="demo" style="padding-left: 30px;"> 
@@ -78,15 +114,15 @@
 				 </tr> 
 				 --> 
                 <tr> 
-					<th scope = "col" height=55px width="30px">SVW<br>M05<br><font color=blue>1:0<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">STP<br>FCA<br><font color=blue>1:1<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">BOC<br>SCF<br><font color=blue>0:1<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">FCB<br>KIE<br><font color=blue>4:3<br><font color=red>4:1</font><br></th>
-					<th scope = "col" height=55px width="30px">VFB<br>BMG<br><font color=blue>1:2<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">HDH<br>BVB<br><font color=blue>1:2<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">FCU<br>RBL<br><font color=blue>0:0<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">SGE<br>WOB<br><font color=blue>1:1<br><font color=red><br></font></th>
-					<th scope = "col" height=55px width="30px">B04<br>TSG<br><font color=blue>3:1<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>KOE<br>WOB<br><font color=blue>1:0  &nbsp;<font color=purple>(1:0)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>FCA<br>STP<br><font color=blue>2:1  &nbsp;<font color=purple>(1:1)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>SGE<br>B04<br><font color=blue>1:3  &nbsp;<font color=purple>(0:2)<br><font color=red>1:2</font><br></th>
+					<th scope = "col" height=55px width="30px"><font color=white>TSG<br>FCU<br><font color=blue>3:1  &nbsp;<font color=purple>(2:0)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>RBL<br>M05<br><font color=blue>1:2  &nbsp;<font color=purple>(1:1)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>SVW<br>BMG<br><font color=blue>1:1  &nbsp;<font color=purple>(0:0)<br><font color=red>0:1</font><br></th>
+					<th scope = "col" height=55px width="30px"><font color=white>HSV<br>FCB<br><font color=blue>2:2  &nbsp;<font color=purple>(1:1)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>VFB<br>SCF<br><font color=blue>1:0  &nbsp;<font color=purple>(0:0)<br><font color=red><br></font></th>
+					<th scope = "col" height=55px width="30px"><font color=white>BVB<br>HDH<br><font color=blue>3:2  &nbsp;<font color=purple>(1:1)<br><font color=red><br></font></th>
                 </tr> 
             </thead> 
         </table> 
@@ -100,823 +136,235 @@
             <tbody>
 
                   <tr>
-                       <td>&nbsp;&nbsp;<b>1</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;9</font></b>&nbsp;Carlo</td>
+                       <td>&nbsp;&nbsp;<b>1</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;2</font></b>&nbsp;Bl-2026</td>
                     </tr>
                   <tr>
-                       <td style="background-color:yellow;">&nbsp;&nbsp;<b>2</b>&nbsp;<b><font color = green>&uarr;36</font></b>&nbsp;Pummi</td>
+                       <td>&nbsp;&nbsp;<b>2</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;1</font></b>&nbsp;Moorgrund</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>3</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;1</font></b>&nbsp;Hotte</td>
+                       <td>&nbsp;&nbsp;<b>2</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;Nareli</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>4</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;1</font></b>&nbsp;Tobo</td>
+                       <td>&nbsp;&nbsp;<b>4</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;Beamie</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>5</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;6</font></b>&nbsp;Linzerboy</td>
+                       <td>&nbsp;&nbsp;<b>5</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;LaJoya</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>6</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;Jensano</td>
+                       <td>&nbsp;&nbsp;<b>6</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;RealJFK</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>6</b>&nbsp;<b><font color = green>&uarr;10</font></b>&nbsp;mythosmg</td>
+                       <td style="background-color:yellow;">&nbsp;&nbsp;<b>6</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;3</font></b>&nbsp;Tigga</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>8</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;5</font></b>&nbsp;Stomakohl</td>
+                       <td>&nbsp;&nbsp;<b>8</b>&nbsp;<b>&nbsp;&harr;&nbsp;</b>&nbsp;AndreSVW</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>9</b>&nbsp;<b><font color = green>&uarr;16</font></b>&nbsp;FloB</td>
+                       <td>&nbsp;&nbsp;<b>9</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;2</font></b>&nbsp;Maik</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>9</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;8</font></b>&nbsp;Goaly54</td>
+                       <td><b>10</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;1</font></b>&nbsp;Kretsche84</td>
                     </tr>
                   <tr>
-                       <td>&nbsp;&nbsp;<b>9</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;6</font></b>&nbsp;grüner</td>
+                       <td><b>11</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;1</font></b>&nbsp;Carlo</td>
                     </tr>
                   <tr>
-                       <td><b>12</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;4</font></b>&nbsp;Julian_Brandt</td>
+                       <td><b>12</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;1</font></b>&nbsp;Linzerboy</td>
                     </tr>
-                  <tr>
-                       <td><b>12</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;6</font></b>&nbsp;xelab</td>
-                    </tr>
-                  <tr>
-                       <td><b>14</b>&nbsp;<b><font color = red>&darr;12</font></b>&nbsp;EA1991</td>
-                    </tr>
-                  <tr>
-                       <td><b>14</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;3</font></b>&nbsp;klanord</td>
-                    </tr>
-                  <tr>
-                       <td><b>16</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;7</font></b>&nbsp;Moorgrund</td>
-                    </tr>
-                  <tr>
-                       <td><b>17</b>&nbsp;<b><font color = green>&uarr;11</font></b>&nbsp;Dirkinho</td>
-                    </tr>
-                  <tr>
-                       <td><b>18</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;6</font></b>&nbsp;Alien1995</td>
-                    </tr>
-                  <tr>
-                       <td><b>19</b>&nbsp;<b><font color = green>&uarr;33</font></b>&nbsp;KuzorrasErben</td>
-                    </tr>
-                  <tr>
-                       <td><b>19</b>&nbsp;<b><font color = green>&uarr;12</font></b>&nbsp;RealJFK</td>
-                    </tr>
-                  <tr>
-                       <td><b>19</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;3</font></b>&nbsp;U.A.E.</td>
-                    </tr>
-                  <tr>
-                       <td><b>22</b>&nbsp;<b><font color = green>&uarr;31</font></b>&nbsp;Tarzan</td>
-                    </tr>
-                  <tr>
-                       <td><b>22</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;4</font></b>&nbsp;Tiger</td>
-                    </tr>
-                  <tr>
-                       <td><b>24</b>&nbsp;<b><font color = red>&darr;15</font></b>&nbsp;melnord</td>
-                    </tr>
-                  <tr>
-                       <td><b>25</b>&nbsp;<b><font color = green>&uarr;25</font></b>&nbsp;Felix</td>
-                    </tr>
-                  <tr>
-                       <td><b>25</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;2</font></b>&nbsp;kamelreiter</td>
-                    </tr>
-                  <tr>
-                       <td><b>27</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;4</font></b>&nbsp;Lichtgestalt</td>
-                    </tr>
-                  <tr>
-                       <td><b>28</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;7</font></b>&nbsp;Liane</td>
-                    </tr>
-                  <tr>
-                       <td><b>28</b>&nbsp;<b><font color = green>&uarr;16</font></b>&nbsp;Poldi</td>
-                    </tr>
-                  <tr>
-                       <td><b>30</b>&nbsp;<b><font color = green>&uarr;10</font></b>&nbsp;Tim</td>
-                    </tr>
-                  <tr>
-                       <td><b>31</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;7</font></b>&nbsp;Lucky98</td>
-                    </tr>
-                  <tr>
-                       <td><b>32</b>&nbsp;<b><font color = red>&darr;13</font></b>&nbsp;Kretsche84</td>
-                    </tr>
-                  <tr>
-                       <td><b>32</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;8</font></b>&nbsp;Mojo83</td>
-                    </tr>
-                  <tr>
-                       <td><b>32</b>&nbsp;<b><font color = red>&darr;19</font></b>&nbsp;zeus</td>
-                    </tr>
-                  <tr>
-                       <td><b>35</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;4</font></b>&nbsp;weisbrod</td>
-                    </tr>
-                  <tr>
-                       <td><b>36</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;1</font></b>&nbsp;Halfi73</td>
-                    </tr>
-                  <tr>
-                       <td><b>36</b>&nbsp;<b><font color = green>&uarr;19</font></b>&nbsp;smubrizio</td>
-                    </tr>
-                  <tr>
-                       <td><b>38</b>&nbsp;<b><font color = red>&darr;19</font></b>&nbsp;VfBKehdingen</td>
-                    </tr>
-                  <tr>
-                       <td><b>39</b>&nbsp;<b><font color = red>&darr;13</font></b>&nbsp;HamburgerDeern</td>
-                    </tr>
-                  <tr>
-                       <td><b>39</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;7</font></b>&nbsp;Maik</td>
-                    </tr>
-                  <tr>
-                       <td><b>39</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;9</font></b>&nbsp;Tobi</td>
-                    </tr>
-                  <tr>
-                       <td><b>42</b>&nbsp;<b><font color = red>&darr;25</font></b>&nbsp;Torti</td>
-                    </tr>
-                  <tr>
-                       <td><b>43</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;8</font></b>&nbsp;FeelingOFC</td>
-                    </tr>
-                  <tr>
-                       <td><b>44</b>&nbsp;<b><font color = red>&darr;31</font></b>&nbsp;Karl1953</td>
-                    </tr>
-                  <tr>
-                       <td><b>45</b>&nbsp;<b><font color = red>&darr;11</font></b>&nbsp;AndreSVW</td>
-                    </tr>
-                  <tr>
-                       <td><b>45</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;2</font></b>&nbsp;Hansa</td>
-                    </tr>
-                  <tr>
-                       <td><b>47</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;1</font></b>&nbsp;Hannie77</td>
-                    </tr>
-                  <tr>
-                       <td><b>48</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;8</font></b>&nbsp;Nareli</td>
-                    </tr>
-                  <tr>
-                       <td><b>49</b>&nbsp;<b><font color = green>&uarr;&nbsp;&nbsp;5</font></b>&nbsp;LongusDI</td>
-                    </tr>
-                  <tr>
-                       <td><b>50</b>&nbsp;<b><font color = red>&darr;29</font></b>&nbsp;KingBelly</td>
-                    </tr>
-                  <tr>
-                       <td><b>51</b>&nbsp;<b><font color = red>&darr;23</font></b>&nbsp;Fortunathommy</td>
-                    </tr>
-                  <tr>
-                       <td><b>52</b>&nbsp;<b><font color = red>&darr;12</font></b>&nbsp;BVBOssy85</td>
-                    </tr>
-                  <tr>
-                       <td><b>53</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;7</font></b>&nbsp;Norris78</td>
-                    </tr>
-                  <tr>
-                       <td><b>53</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;9</font></b>&nbsp;Tigga</td>
-                    </tr>
-                  <tr>
-                       <td><b>55</b>&nbsp;<b><font color = red>&darr;&nbsp;&nbsp;5</font></b>&nbsp;robbery2015</td>
-                    </tr>
-                  <tr>
-                       <td><b>56</b>&nbsp;<b><font color = red>&darr;10</font></b>&nbsp;Maik123</td>
-                    </tr>            </tbody> 
+                <tr><td> </td></tr>
+            </tbody> 
         </table>
     </aside>
     <div Class="fixedTable-body">
         <Table Class="table table-bordered">
             <tbody>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >3:1<font size="1" color=blue><b>&nbsp;20<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td style="background-color:yellow;">3:2<font size="1" color=blue><b>&nbsp;13 
-                <td style="background-color:yellow;">1:1<font size="1" color=blue><b>&nbsp;20 
-                <td style="background-color:yellow;">2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td style="background-color:yellow;">5:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td style="background-color:yellow;">2:3<font size="1" color=blue><b>&nbsp;14 
-                <td style="background-color:yellow;">1:2<font size="1" color=blue><b>&nbsp;20 
-                <td style="background-color:yellow;">2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td style="background-color:yellow;">2:2<font size="1" color=blue><b>&nbsp;14 
-                <td style="background-color:yellow;">4:2<font size="1" color=blue><b>&nbsp;14 
+            <tr>
+                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>2</b></font></td>
+                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;13&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
+            <tr>
+                <td >2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >2:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
+            <tr>
+                <td >2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:3<font size="1" color=blue><b>&nbsp;13 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8<font color=black>+<font color=red>3</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td style="background-color:yellow;">2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td style="background-color:yellow;">2:0<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>3&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0<font color=gray>+<font color=red>3</b></font></td>
+                <td style="background-color:yellow;">0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td style="background-color:yellow;">2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
+            <tr>
+                <td >2:1<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >10:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>3&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >0:5<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >4:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:0<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
+                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>3</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;14&nbsp;&nbsp;&nbsp;
+                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
+            <tr>
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0<font color=gray>+<font color=purple>3&nbsp;&nbsp;&nbsp;
+                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;14<font color=gray>+<font color=purple>3&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:1<font size="1" color=blue><b>&nbsp;20<font color=gray>+<font color=purple>2&nbsp;&nbsp;&nbsp;
+                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;
+                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8<font color=black>+<font color=red>3</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
+            <tr>
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >2:1<font size="1" color=blue><b>&nbsp;20&nbsp;&nbsp;&nbsp;
+                <td >2:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1<font color=gray>+<font color=red>2</b></font></td>
+                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9<font color=gray>+<font color=purple>1&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0<font color=gray>+<font color=red>3</b></font></td>
+                <td >1:4<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;
+                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;
             </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >5:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td ><font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td ><font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td ><font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0                <td ><font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td ><font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;12                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;14 
-                <td >0:0<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;13                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8<font color=black>+<font color=red>3</b></font></td>
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >5:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:1<font size="1" color=blue><b>&nbsp;14 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >5:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >3:2<font size="1" color=blue><b>&nbsp;13 
-                <td >3:3<font size="1" color=blue><b>&nbsp;13 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >7:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;4                <td >0:4<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >2:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >6:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;5                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:2<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:4<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:4<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6 
-                <td >5:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;20 
-                <td >5:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >5:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;5                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >6:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >5:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >5:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >7:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;4                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8<font color=black>+<font color=red>3</b></font></td>
-                <td >3:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >2:2<font size="1" color=blue><b>&nbsp;13 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;20 
-            </tr>
-            <tr>                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >2:3<font size="1" color=blue><b>&nbsp;14 
-                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:2<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:0<font size="1" color=blue><b>&nbsp;20 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;20 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8 
-            </tr>
-            <tr>                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:2<font size="1" color=blue><b>&nbsp;14 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >2:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;20 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >0:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >0:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            <tr>                <td >2:1<font size="1" color=blue><b>&nbsp;14 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;6<font color=black>+<font color=red>2</b></font></td>
-                <td >3:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >0:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;8 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >3:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-            </tr>
-            <tr>                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >4:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;7                <td >2:0<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >1:3<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;9 
-                <td >1:2<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:1<font size="1" color=blue><b>&nbsp;&nbsp;&nbsp;0 
-                <td >2:0<font size="1" color=blue><b>&nbsp;14 
-            </tr>
-            </tbody> 
+            <tr>                <td><font color=lightgray><b>1:0  &nbsp;(1:0)</b></td>                <td><font color=lightgray><b>2:1  &nbsp;(1:1)</b></td>                <td><font color=lightgray><b>1:3  &nbsp;(0:2)</b></td>                <td><font color=lightgray><b>3:1  &nbsp;(2:0)</b></td>                <td><font color=lightgray><b>1:2  &nbsp;(1:1)</b></td>                <td><font color=lightgray><b>1:1  &nbsp;(0:0)</b></td>                <td><font color=lightgray><b>2:2  &nbsp;(1:1)</b></td>                <td><font color=lightgray><b>1:0  &nbsp;(0:0)</b></td>                <td><font color=lightgray><b>3:2  &nbsp;(1:1)</b></td>            </tr>            </tbody> 
         </table>
     </div>
     <aside Class="fixedTable-sidebar-right">
         <Table Class="table table-bordered">
             <tbody>
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 81</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>190</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 76</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>248</font></b></td>
+            </tr>
 
-            <tr>               <td  style="background-color:yellow;">&nbsp;<b><font color= red > 102</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>189</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 65</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>245</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>187</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 72</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>245</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>185</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 80</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>226</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 75</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>183</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 80</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>218</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 68</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>181</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 70</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>199</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 76</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>181</font></b></td>            </tr>
+            <tr>
+               <td  style="background-color:yellow;">&nbsp;&nbsp;&nbsp;<b><font color= red > 90</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>199</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 73</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>179</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 62</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>183</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 82</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>178</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 52</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>179</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 51</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>178</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 65</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>169</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 59</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>178</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 59</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>166</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 65</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>176</font></b></td>            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 61</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>165</font></b></td>
+            </tr>
 
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 63</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>176</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 54</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>174</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 71</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>174</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 73</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>170</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 75</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>169</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 61</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>168</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 88</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>167</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 76</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>167</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>167</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 89</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>166</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 71</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>166</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 55</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>165</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 81</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>162</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 65</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>162</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>160</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 70</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>159</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 75</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>159</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 71</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>157</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>156</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 53</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>155</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 69</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>155</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 49</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>155</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 62</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>153</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 59</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>148</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 75</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>148</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 45</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>147</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 51</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>146</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 64</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>146</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 53</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>146</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 42</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>145</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 55</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>144</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 35</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>141</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 48</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>138</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 53</font></b>&nbsp;1,00&nbsp;&nbsp;&nbsp;<b><font color=green>138</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 55</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>137</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 62</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>134</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 56</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>131</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 29</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>130</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 32</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>126</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 39</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>125</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 42</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>124</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 40</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>124</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 39</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>120</font></b></td>            </tr>
-
-            <tr>               <td>&nbsp;&nbsp;&nbsp;<b><font color= blue > 30</font></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font color=green>112</font></b></td>            </tr>
-
-            </tbody> 
+            <tr><td> </td></tr>            </tbody> 
         </table>
     </aside>
 	
@@ -945,7 +393,7 @@
     </footer>
 
 </div>
-<section>
+</section>
 
 <!-- partial -->
 <!--<script src='cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'>-->
@@ -987,12 +435,13 @@
 		<footer>
 		  <ul class="mitte">
 			<li>
-			  <!-- <a href="/impressum.html">Impressum</a> -->
-			  <a href="/st19"><< 19 <<</a>
-			</li>
-			<li>
 			  <!-- <a href="/datenschutz.html">Datenschutz</a> -->
-			  <a href="/st18">>> 18 >></a>
+			  <input class="NavButtonClass" type="image" src="pics/navarrow-darksilver-left.png" alt="Arrow direction left" value=" &#11207; " onclick="window.location.href='st19.html'">
+			</li>
+				<font size=4 color=white><b>Spieltag 20</b></font>
+			<li>
+			  <!-- <a href="/impressum.html">Impressum</a> -->
+			  <input class="NavButtonClass" type="image" src="pics/navarrow-darksilver-right.png" alt="Arrow direction right" value=" &#11208; " onclick="window.location.href='st21.html'">
 			</li>
 		  </ul>
 		</footer>
